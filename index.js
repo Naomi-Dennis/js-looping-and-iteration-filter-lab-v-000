@@ -9,5 +9,5 @@ function fuzzyMatch(list, value){
 
 
 function matchName(list, value){
-  return list.filter( (ele) => {return ele['name'].toUpperCase() === value['name'].toUpperCase() })
+  return list.filter( (ele) => {return ele['name'].toUpperCase() === value.toUpperCase() })
 }
